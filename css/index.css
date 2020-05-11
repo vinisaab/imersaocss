@@ -1,0 +1,42 @@
+body {
+    background: #292a2d;
+    font-family: "Courier New", Courier, monospace;
+    background-size: 100vh;
+    height: 100vh;
+}
+
+.menu {
+    font-family: "Courier New", Courier, monospace;
+    display: inline;
+}
+
+.site-title, .site-subtitle {
+    color: #a8a8b2;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho {
+    background-color: #252627;
+    display: contents;
+}
+
+header {
+    background-color: #252627;
+}
